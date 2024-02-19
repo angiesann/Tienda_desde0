@@ -1,0 +1,38 @@
+#tituloprincipal{
+    color:blueviolet;
+    font-family: red;
+     }
+     
+ .angie{
+     color:#ffffff;
+     font-size: 20px;
+     }
+
+     body{
+         background-image: url("https://th.bing.com/th/id/R.a7b07be7e21efed34bd758011374731f?rik=UX8uNWijaie6EQ&riu=http%3a%2f%2fsignificadosdelossuenos.net%2fwp-content%2fuploads%2f2017%2f03%2fSo%c3%b1ar-con-obras-de-arte.jpg&ehk=VAhQgWqi3PGQMHVkv0y%2bhszl8mirlg4I2n%2fNuAZNPms%3d&risl=&pid=ImgRaw&r=0/fondo.png")
+     }
+     
+     a:link{
+         color: brown;
+     }  
+     a:visited{
+         color:darkgreen;
+     }
+     a:hover{
+         transition: 1s;
+         background-color: black;
+         color: white;
+         border-radius: 25px;
+     }
+     
+     a:activar{
+       
+         background-color: red;
+         color: purple;}
+     
+     p:nth-child(even){
+         background-color:  antiquewhite
+     }
+     p:nth-child(odd){
+         background-color:  brown;
+     }
