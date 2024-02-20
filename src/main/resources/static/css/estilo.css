@@ -35,4 +35,6 @@
      }
      p:nth-child(odd){
          background-color:  brown;
-     }
+     }.py-4 {
+
+}
