@@ -1,5 +1,6 @@
 
-package comtienda.dominio;
+package com.tienda.domain;
+
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -13,7 +14,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name="categoria")
-public class categoria implements Serializable {
+public class Categoria implements Serializable {
     
     private static final long serialVersionUID = 1L;
     
@@ -21,17 +22,17 @@ public class categoria implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idCategoria")
     
-    private Long idCtegoria;
+    private Long idCategoria;
     private String descripcion;
     private String rutaimagen;
     private boolean activo;
     
     
-    public categoria(){
+    public Categoria(){
     
         
     } 
-     public categoria( String descripcion,String rutaimagen, boolean activo){
+     public Categoria( String descripcion,String rutaimagen , boolean activo){
     this.descripcion =  descripcion ;
     this.rutaimagen =  rutaimagen ;
     this.activo =  activo ;
@@ -39,7 +40,17 @@ public class categoria implements Serializable {
  
         
     } 
+
+    public void setrutaimagen(String cargaImagen) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Long getIdCategoria() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     }
          
+
+    

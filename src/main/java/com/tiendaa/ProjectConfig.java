@@ -1,5 +1,5 @@
 
-package comtienda;
+package com.tiendaa;
 
 import java.util.Locale;
 import org.springframework.context.MessageSource;
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 @Configuration
-public class projectConfi implements WebMvcConfigurer {
+public class ProjectConfig implements WebMvcConfigurer {
     
     /* Los siguientes métodos son para incorporar el tema de internacionalización en el proyecto */
 
@@ -51,3 +51,5 @@ public class projectConfi implements WebMvcConfigurer {
     }
     
 }
+
+
